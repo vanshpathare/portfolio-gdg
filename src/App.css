@@ -1,0 +1,69 @@
+.App_component{
+  background-image: url('./images/portfolio_bg_image.jpg'), linear-gradient(to right top,  #66e3e6, #f5cc73);
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-blend-mode: overlay;
+  padding-bottom: 30px;
+  animation: moveBg 30s linear infinite;
+    
+}
+
+@keyframes moveBg {
+    0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.head-container{
+    width: 100%;  
+  text-align: center;
+  padding:5px 0;  
+  margin-bottom: 5px;
+}
+
+.headings{
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.tagline{
+  font-size: 25px;
+  text-align: center;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.about-me{
+   font-size: 25px;
+  text-align: center;
+  padding: 15px ;
+  padding-top: 5px;
+  padding-left: 35px;
+   background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+   margin-top: 0px;
+  
+}
+
+.PROJECTS{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+   margin-top: 0px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+}
+
+.SKILLS{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+   margin-top: 0px;
+   padding-left: 20px;
+   padding-bottom: 10px;
+   margin-left: 40px;
+   margin-right: 40px;
+}
