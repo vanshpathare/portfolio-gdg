@@ -8,9 +8,9 @@ const _3Projects = () => {
       link: "",
     },
     {
-      title: "Todo App",
-      description: "A simple React todo app with hooks.",
-      link: "https://flask-todo-app-vansh.onrender.com/",
+      title: "Amazon-Hope_Page",
+      description: "Amazon home page using HTML ans CSS only.",
+      link: "https://vanshpathare.github.io/Amazon_Home_page/",
     },
     {
       title: "SIH UI/UX designs",
@@ -18,10 +18,10 @@ const _3Projects = () => {
       link: "https://www.canva.com/design/DAGyoI9_TVw/vCe2uoX_tnYxHBYiCTrlWQ/edit?utm_content=DAGyoI9_TVw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     },
     {
-      title: "Tabloid using canva",
+      title: "Amazon_Clone",
       description:
-        "Made a multiple page tabloid for which I got prize in 'Aveeshan' competition!",
-      link: "https://www.canva.com/design/DAGXsO9AAdc/y_8vM2wgm1ySIKDUkruiJA/edit?utm_content=DAGXsO9AAdc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "A Clone of Amazon made using with HTML and JavaScript. Includes delivery, cart, tracking,etc. ",
+      link: "https://vanshpathare.github.io/Amazon_Clone/",
     },
   ];
 
